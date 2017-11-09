@@ -2,7 +2,7 @@ import createElement from './modules/createElement';
 import findNodeHandle from './modules/findNodeHandle';
 import NativeModules from './modules/NativeModules';
 import processColor from './modules/processColor';
-import { hydrate, render, unmountComponentAtNode } from 'react-dom';
+import {hydrate, render, unmountComponentAtNode} from 'react-dom';
 
 // APIs
 import Animated from './apis/Animated';
@@ -50,6 +50,7 @@ import TouchableOpacity from './components/Touchable/TouchableOpacity';
 import TouchableWithoutFeedback from './components/Touchable/TouchableWithoutFeedback';
 import View from './components/View';
 import VirtualizedList from './components/VirtualizedList';
+import ART from './components/ART';
 
 // propTypes
 import ColorPropType from './propTypes/ColorPropType';
@@ -59,133 +60,135 @@ import TextPropTypes from './components/Text/TextPropTypes';
 import ViewPropTypes from './components/View/ViewPropTypes';
 
 export {
-  // top-level API
-  findNodeHandle,
-  hydrate,
-  render,
-  unmountComponentAtNode,
-  // modules
-  createElement,
-  NativeModules,
-  processColor,
-  // APIs
-  Animated,
-  AppRegistry,
-  AppState,
-  AsyncStorage,
-  BackHandler,
-  Clipboard,
-  Dimensions,
-  Easing,
-  I18nManager,
-  InteractionManager,
-  Keyboard,
-  Linking,
-  NetInfo,
-  PanResponder,
-  PixelRatio,
-  Platform,
-  StyleSheet,
-  UIManager,
-  Vibration,
-  // components
-  ActivityIndicator,
-  Button,
-  FlatList,
-  Image,
-  KeyboardAvoidingView,
-  ListView,
-  Modal,
-  Picker,
-  ProgressBar,
-  RefreshControl,
-  ScrollView,
-  SectionList,
-  Slider,
-  StatusBar,
-  Switch,
-  Text,
-  TextInput,
-  Touchable,
-  TouchableHighlight,
-  TouchableNativeFeedback,
-  TouchableOpacity,
-  TouchableWithoutFeedback,
-  View,
-  VirtualizedList,
-  // propTypes
-  ColorPropType,
-  EdgeInsetsPropType,
-  PointPropType,
-  TextPropTypes,
-  ViewPropTypes
+    // top-level API
+    ART,
+    findNodeHandle,
+    hydrate,
+    render,
+    unmountComponentAtNode,
+    // modules
+    createElement,
+    NativeModules,
+    processColor,
+    // APIs
+    Animated,
+    AppRegistry,
+    AppState,
+    AsyncStorage,
+    BackHandler,
+    Clipboard,
+    Dimensions,
+    Easing,
+    I18nManager,
+    InteractionManager,
+    Keyboard,
+    Linking,
+    NetInfo,
+    PanResponder,
+    PixelRatio,
+    Platform,
+    StyleSheet,
+    UIManager,
+    Vibration,
+    // components
+    ActivityIndicator,
+    Button,
+    FlatList,
+    Image,
+    KeyboardAvoidingView,
+    ListView,
+    Modal,
+    Picker,
+    ProgressBar,
+    RefreshControl,
+    ScrollView,
+    SectionList,
+    Slider,
+    StatusBar,
+    Switch,
+    Text,
+    TextInput,
+    Touchable,
+    TouchableHighlight,
+    TouchableNativeFeedback,
+    TouchableOpacity,
+    TouchableWithoutFeedback,
+    View,
+    VirtualizedList,
+    // propTypes
+    ColorPropType,
+    EdgeInsetsPropType,
+    PointPropType,
+    TextPropTypes,
+    ViewPropTypes
 };
 
 const ReactNative = {
-  // top-level API
-  findNodeHandle,
-  hydrate,
-  render,
-  unmountComponentAtNode,
+    // top-level API
+    ART,
+    findNodeHandle,
+    hydrate,
+    render,
+    unmountComponentAtNode,
 
-  // modules
-  createElement,
-  NativeModules,
-  processColor,
+    // modules
+    createElement,
+    NativeModules,
+    processColor,
 
-  // APIs
-  Animated,
-  AppRegistry,
-  AppState,
-  AsyncStorage,
-  BackHandler,
-  Clipboard,
-  Dimensions,
-  Easing,
-  I18nManager,
-  InteractionManager,
-  Keyboard,
-  Linking,
-  NetInfo,
-  PanResponder,
-  PixelRatio,
-  Platform,
-  StyleSheet,
-  UIManager,
-  Vibration,
+    // APIs
+    Animated,
+    AppRegistry,
+    AppState,
+    AsyncStorage,
+    BackHandler,
+    Clipboard,
+    Dimensions,
+    Easing,
+    I18nManager,
+    InteractionManager,
+    Keyboard,
+    Linking,
+    NetInfo,
+    PanResponder,
+    PixelRatio,
+    Platform,
+    StyleSheet,
+    UIManager,
+    Vibration,
 
-  // components
-  ActivityIndicator,
-  Button,
-  FlatList,
-  Image,
-  KeyboardAvoidingView,
-  ListView,
-  Modal,
-  Picker,
-  ProgressBar,
-  RefreshControl,
-  ScrollView,
-  SectionList,
-  Slider,
-  StatusBar,
-  Switch,
-  Text,
-  TextInput,
-  Touchable,
-  TouchableHighlight,
-  TouchableNativeFeedback,
-  TouchableOpacity,
-  TouchableWithoutFeedback,
-  View,
-  VirtualizedList,
+    // components
+    ActivityIndicator,
+    Button,
+    FlatList,
+    Image,
+    KeyboardAvoidingView,
+    ListView,
+    Modal,
+    Picker,
+    ProgressBar,
+    RefreshControl,
+    ScrollView,
+    SectionList,
+    Slider,
+    StatusBar,
+    Switch,
+    Text,
+    TextInput,
+    Touchable,
+    TouchableHighlight,
+    TouchableNativeFeedback,
+    TouchableOpacity,
+    TouchableWithoutFeedback,
+    View,
+    VirtualizedList,
 
-  // propTypes
-  ColorPropType,
-  EdgeInsetsPropType,
-  PointPropType,
-  TextPropTypes,
-  ViewPropTypes
+    // propTypes
+    ColorPropType,
+    EdgeInsetsPropType,
+    PointPropType,
+    TextPropTypes,
+    ViewPropTypes
 };
 
 export default ReactNative;
