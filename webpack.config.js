@@ -60,7 +60,8 @@ module.exports = {
     resolve: {
         // Maps the 'react-native' import to 'react-native-web'.
         alias: {
-            'art': 'art-react-fork'
+            'art': 'art-react-fork',
+            'react-art': 'react-art-fiber'
         },
     },
 };
