@@ -40,7 +40,6 @@ class View extends Component {
     const {
       hitSlop,
       style,
-      showsHorizontalScrollIndicator,
       /* eslint-disable */
       collapsable,
       onAccessibilityTap,
@@ -61,7 +60,7 @@ class View extends Component {
     }
 
     const { isInAParentText } = this.context;
-    otherProps.style = [styles.initial, isInAParentText && styles.inline, style, !showsHorizontalScrollIndicator && {overflowX: 'hidden'}];
+    otherProps.style = [styles.initial, isInAParentText && styles.inline, style];
 
     if (hitSlop) {
       const hitSlopStyle = calculateHitSlopStyle(hitSlop);

@@ -163,6 +163,7 @@ export default class ScrollViewBase extends Component {
       scrollPerfTag,
       scrollsToTop,
       showsVerticalScrollIndicator,
+      showsHorizontalScrollIndicator,
       snapToInterval,
       snapToAlignment,
       zoomScale,
